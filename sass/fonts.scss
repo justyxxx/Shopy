@@ -1,0 +1,25 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+
+  src: url("../fonts/opensans.woff") format("woff"),
+    url("../fonts/opensans.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans Bold";
+
+  src: url("../fonts/opensansbold.woff") format("woff"),
+    url("../fonts/opensansbold.woff2") format("woff2");
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@font-face {
+  font-weight: 700;
+  font-family: "Qanelas";
+  src: url("../fonts/Qanelas.otf") format("otf");
+
+}
