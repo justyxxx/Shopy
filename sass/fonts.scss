@@ -1,25 +1,25 @@
 @font-face {
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Harmonia Sans";
 
-  src: url("../fonts/opensans.woff") format("woff"),
-    url("../fonts/opensans.woff2") format("woff2");
+  src: url("../fonts/HarmoniaSansProCyr-Regular.otf") format("otf"),
+    url("../fonts/HarmoniaSansProCyr-Regular.otf") format("otf");
 }
 
 @font-face {
-  font-weight: 700;
-  font-family: "Open Sans Bold";
+  font-weight: 400;
+  font-family: "Harmonia SansPro SemiBd";
 
-  src: url("../fonts/opensansbold.woff") format("woff"),
-    url("../fonts/opensansbold.woff2") format("woff2");
+  src: url("../fonts/HarmoniaSansProCyr-SemiBd.otf") format("otf"),
+    url("../fonts/HarmoniaSansProCyr-SemiBd.otf") format("otf");
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+  font-weight: 400;
+  font-family: "Harmonia SansPro Black";
+
+  src: url("../fonts/HarmoniaSansProCyr-Black.otf") format("otf"),
+  url("../fonts/HarmoniaSansProCyr-Black.otf") format("otf");
+}
 
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-
-@font-face {
-  font-weight: 700;
-  font-family: "Qanelas";
-  src: url("../fonts/Qanelas.otf") format("otf");
-
-}
