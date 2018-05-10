@@ -1,0 +1,108 @@
+.product {
+  width: 270px;
+  height: 365px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 20px;
+}
+
+.product__img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 31px;
+}
+
+.product__title {
+  font-family: "Harmonia Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #34404b;
+  margin-top: 29px;
+  text-align: center;
+}
+
+.product__price {
+  margin-top: 33px;
+  color: $main-color;
+  font-family: "Harmonia Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  .product__img {
+    max-width: 30%;
+  }
+  .product__title {
+    color: $main-color;
+  }
+  .product__price {
+    display: none;
+  }
+  .product__sizes {
+    font-family: "Harmonia Sans", sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  .product-full {
+    visibility: visible;
+  }
+}
+
+
+.product-colors {
+  text-align: center;
+  padding-left: 0;
+  &:after {
+    content: "";
+    border: 1px solid #f2f4f7;
+    width: 167px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px!important;
+  }
+}
+
+.product-color {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  &:first-child {
+    background-color: red;
+  }
+  &:nth-child(3) {
+    background-color: blue;
+  }
+  &:last-child {
+    background-color: green;
+  }
+}
+
+.product-icons {
+  text-align: center;
+  padding-left: 0;
+  margin-top: 30px;
+}
+
+.product-icon {
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 33px;
+  &:first-child {
+    padding-left: 0;
+  }
+  .product-icon__link {
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+}
