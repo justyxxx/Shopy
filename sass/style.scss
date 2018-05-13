@@ -3,8 +3,12 @@
 @import "base";
 @import "utils";
 @import "fonts";
+@import "media";
 @import "blocks/page-header";
 @import "blocks/main-content";
 @import "blocks/sales";
 @import "blocks/product";
+@import "blocks/join";
+@import "blocks/footer";
 @import "../libs/boostrap/dist/css/bootstrap-grid";
+@import "../libs/slicnav/dist/slicknav.min";
