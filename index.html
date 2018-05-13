@@ -4,17 +4,450 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title> Shopy </title>
     <link href="css/style.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   </head>
   <body>
-
-
-    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <header class="page-header">
+      <div class="container">
+        <div class="row page-header__top">
+          <div class="col-lg-4 col-md-6 col-sm-6 ">
+            <div class="page-header__contacts">
+              <i class="far fa-envelope"></i>
+              <span class="page-header__contacts--mail">
+                info@shopy.com
+              </span>
+              <i class="fas fa-phone-square"></i>
+              <span class="page-header__contacts--phone">
+                996 - 5553 - 453
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-6 col-md-4 offset-md-2 col-sm-6">
+            <div class="page-header__social">
+              <a href="#" class="page-header__social--item"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="page-header__social--item"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="page-header__social--item"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="page-header__social--item"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row page-header__bottom">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+            <div class="logo">
+              <a href="#" class="logo-link">
+                <img src="img/content/logo.png" alt="123" class="logo-picture">
+              </a>
+            </div>
+            </div>
+          <div class="col-lg-8 col-md-7 col-sm-2 col-xs-2">
+            <nav class="main-nav">
+              <ul class="main-nav__items">
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Home</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Products</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Hot Deals</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">About</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+            <div class="userpanel">
+              <a class="userpanel-search" href="#"><i class="fas fa-search"></i></a>
+              <a class="userpanel-user" href="#"><i class="fas fa-user-circle"></i></a>
+              <a class="userpanel-cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-header__background">
+        <div class="photo"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1 col-sm-1 col-xs-0">
+              <div class="toogle">
+              </div>
+            </div>
+            <div class="col-md-11 col-sm-11 col-xs-12">
+              <div class="header-content">
+                <h1 class="header-content__title">FULL WINTER KIT</h1>
+                <p class="header-content__text">
+                  Half Jacket + Skiny Trousers + Boot leather
+                </p>
+                <p class="header-content__description">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                </p>
+                <p class="header-content__price">
+                  Price : 120$
+                  <span class="header-content__order">
+                    <a href="" class="header-content__order--link">
+                      <i class="fas fa-cart-arrow-down"></i>
+                    </a>
+                    Order Now
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main-content">
+      <div class="container">
+        <h2 class="main-content__title">
+          <span class="title__color"> NEW </span> ARRIVALS
+        </h2>
+        <p class="main-content__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing.
+        </p>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="product">
+              <img src="img/content/product-img.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product">
+              <img src="img/content/prod-img3.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product">
+              <img src="img/content/prod-img2.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product">
+              <img src="img/content/prod-img3.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product hidden">
+              <img src="img/content/product-img.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product hidden">
+              <img src="img/content/prod-img3.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product hidden">
+              <img src="img/content/prod-img2.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product hidden">
+              <img src="img/content/prod-img3.png" alt="" class="product__img">
+              <h3 class="product__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="product__price">
+                100$
+              </p>
+              <div class="product-full">
+                <p class="product__sizes">
+                  sizes    :    s - m - l - xl
+                </p>
+                <ul class="product-colors">
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                  <li class="product-color"></li>
+                </ul>
+                <ul class="product-icons">
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-globe"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="fas fa-cart-arrow-down"></i></a></li>
+                  <li class="product-icon"><a href="#" class="product-icon__link"><i class="far fa-heart"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="product-more">
+            <a class="product-more__link">
+              <ul class="link-dots">
+                <li class="link-dot"></li>
+                <li class="link-dot"></li>
+                <li class="link-dot"></li>
+              </ul>
+            </a>
+          </div>
+          <div class="col-md-7">
+            <div class="product-sale">
+              <a class="product-sale__logo">
+                <img src="img/content/sale-bg.png" alt="sale" class="product-sale__logo--img">
+              </a>
+              <h2 class="product-sale__title">
+                FULL WINTER KIT
+              </h2>
+              <p class="product-sale__text">
+                Half Jacket + Skiny Trousers + Boot leather
+              </p>
+              <span class="product-sale__text__price">
+                120$
+              </span>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="product-adv">
+              <p class="product-adv__text">
+                adv <span class="product-adv__text--color">
+                area
+              </span>
+              </p>
+              <p class="product-adv__text--size">
+                100 x 470
+              </p>
+            </div>
+          </div>
+          <div class="best-sales">
+            <h1 class="best-sales__title">
+              BEST <span class="best-sale__title--color">
+              SALES
+            </span>
+            </h1>
+            <p class="best-sales__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="sales-item">
+              <img class="sales-item__img" src="img/content/Sales-img.png" alt="Sales">
+              <h3 class="sales-item__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="sales-item__price">
+                100$
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="sales-item">
+              <img class="sales-item__img" src="img/content/Sales-img.png" alt="Sales">
+              <h3 class="sales-item__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="sales-item__price">
+                100$
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="sales-item">
+              <img class="sales-item__img" src="img/content/Sales-img.png" alt="Sales">
+              <h3 class="sales-item__title">
+                Reebok Track Jacket
+              </h3>
+              <p class="sales-item__price">
+                100$
+              </p>
+            </div>
+          </div>
+          <div class="join-us">
+            <span class="join-us__ttitle">
+              NEWS LETTER
+            </span>
+            <p class="join-us__text">
+              join us now to get all news and special offers
+            </p>
+            <i class="far fa-envelope join-us__icon"></i>
+            <input type="text" class="join-us__email" placeholder="type your email here">
+            <a href="#" class="button-style join-us__link">Join</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/content/logo.png" alt="" class="footer__logo">
+          </div>
+          <div class="col-md-2">
+            <ul class="footer__items">
+              <li class="footer__item"><a class="footer__item--link" href="#">about us</a></li>
+              <li class="footer__item"><a class="footer__item--link" href="#">contact us</a></li>
+              <li class="footer__item"><a class="footer__item--link" href="#">support</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="footer__items">
+              <li class="footer__item"><a class="footer__item--link" href="#">our feed</a></li>
+              <li class="footer__item"><a class="footer__item--link" href="#">terms and conditions</a></li>
+              <li class="footer__item"><a class="footer__item--link" href="#">our privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="footer__items">
+              <li class="footer__item"><a class="footer__item--link" href="#">join us</a></li>
+              <li class="footer__item"><a class="footer__item--link" href="#">live support</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h3 class="footer__payment">
+              Payment Methods
+            </h3>
+            <img src="img/content/pay.png" alt="" class="footer__payment-img">
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
     <script src="js/scripts.min.js"></script>
-    <script src="https://use.fontawesome.com/fa160b6f05.js"></script>
   </body>
 </html>
