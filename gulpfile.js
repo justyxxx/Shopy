@@ -79,7 +79,7 @@ gulp.task("svg-fill-remove", function () {
 });
 
 gulp.task("copy-fonts", function () {
-  return gulp.src("fonts/*.{woff,woff2}")
+  return gulp.src("fonts/*.{otf,woff2}")
     .pipe(gulp.dest("build/fonts"));
 });
 
@@ -96,6 +96,7 @@ gulp.task("minify-js", function () {
     "js/*.js",
     "libs/jquery/dist/jquery.min.js",
     "libs/boostrap/dist/js/boostrap.js",
+    "libs/slicnav/dist/jquery.slicknav.js"
     ])
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest("build/js"))
@@ -130,6 +131,7 @@ gulp.task("serve", ["watch"], function () {
   server.init({
     server: "build",
     notify: false,
+    port: process.env.PORT || 5002,
     open: true,
     cors: true,
     ui: false
