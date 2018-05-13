@@ -24,7 +24,7 @@
     "remove-svg-properties": "^0.3.3",
     "run-sequence": "^2.2.0",
     "stylelint": "8.1.x",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "gulp-concat": "2.6.1"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
