@@ -35,7 +35,9 @@
 }
 
 .sales-item__title {
+
   margin-left: 170px;
+  display: inline-block;
   padding-top: 30px;
   font-size: 18px;
 
@@ -47,4 +49,9 @@
   font-weight: 700;
   margin-left: 170px;
 
+}
+
+.sales-wrap {
+  margin-bottom: 120px;
+  width: 1070px;
 }

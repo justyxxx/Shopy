@@ -1,0 +1,33 @@
+.footer-content {
+  min-height: 200px;
+}
+
+.footer__logo {
+  width: 117px;
+  height: auto;
+  margin-top: 90px;
+}
+
+.footer__items {
+  margin-top: 90px;
+}
+
+.footer__item--link {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 25px;
+  color: #28313b;
+  font-weight: 500;
+  &:hover {
+    color: $main-color;
+  }
+}
+
+.footer__payment {
+  margin-top: 90px;
+  color: $main-color;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+

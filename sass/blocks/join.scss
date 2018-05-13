@@ -1,0 +1,42 @@
+.join-us {
+  height: 123px;
+  background-color: #fff;
+  margin-top: 120px;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.join-us__text {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 12px;
+  font-style: italic;
+  color: #34404b;
+}
+
+.join-us__ttitle {
+  line-height: 123px;
+  margin-left: 54px;
+  font-size: 18px;
+  font-weight: 700;
+  color: $main-color;
+}
+
+.join-us__email {
+  outline: none;
+  border: none;
+  width: 124px;
+  font-size: 12px;
+  font-style: italic;
+  color: #34404b;
+}
+
+.join-us__icon {
+  margin-left: 250px;
+}
+
+
+.join-us__link {
+  text-align: center;
+  margin-left: 120px;
+}
