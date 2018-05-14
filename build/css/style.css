@@ -810,6 +810,9 @@ html {
   text-align: center;
   font-size: 12px; }
 
+.main-nav__link {
+  color: #000; }
+
 .best-sales__title {
   text-align: center;
   font-size: 36px;
